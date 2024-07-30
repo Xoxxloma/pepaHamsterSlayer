@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.startButton {
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: inherit;
+    outline: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.startButton:disabled {
+    background: gray;
+}
+
+.buttonGradient {
+    background: linear-gradient(96deg, #5a60ff, #b65aff 99.09%);
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}

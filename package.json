@@ -10,6 +10,8 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@plasmohq/storage": "^1.11.0",
+    "axios": "^1.7.2",
     "plasmo": "0.88.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -26,6 +28,20 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
-    ]
+    ],
+    "permissions": [
+      "tabs",
+      "notifications",
+      "contextMenus",
+      "history",
+      "background",
+      "proxy",
+      "webRequest",
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "persistent": true
+    }
   }
 }
