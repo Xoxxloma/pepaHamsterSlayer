@@ -13,17 +13,14 @@ export const Slider = ({ value, onChange, label, stepSize }) => {
                 <input
                     type="range"
                     min="0"
-                    max="100"
+                    max="1"
                     value={value}
                     id="range"
                     step={stepSize}
                     onChange={onChangeHandler}
                 />
-                {/*<div className="sliderticks">*/}
-                {/*    {steps.map((step) => <span>{step}</span>)}*/}
-                {/*</div>*/}
             </div>
-            <div className="value">{value}</div>
+            <div className="value">{value * 100}%</div>
         </div>
 
     )

@@ -1,0 +1,9 @@
+.typeWriterContainer {
+    width: 100%;
+    word-break: break-word;
+    display: inline-block;
+}
+
+.typeWriterCursor {
+    display: none;
+}

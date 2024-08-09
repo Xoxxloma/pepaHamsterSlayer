@@ -1,0 +1,102 @@
+{
+  "extensionName": {
+    "message": "with-locales-i18n-en",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Example using locales + i18n!",
+    "description": "Description of the extension."
+  },
+  "popup": {
+    "message": "Logic is the beginning of wisdom, not the end.",
+    "description": "Popup message."
+  },
+  "Settings": {
+    "message": "Settings",
+    "description": "settings"
+  },
+  "Logs":  {
+    "message": "Logs",
+    "description": "logs"
+  },
+  "FAQ": {
+    "message": "FAQ",
+    "description": "FAQ"
+  },
+  "token_not_found": {
+    "message": "Token not found. Tap once and wait.",
+    "description": "token_not_found"
+  },
+  "src_not_replaced": {
+    "message": "If Hamster Kombat shows qr-code and doesn't start in Web - press the button below",
+    "description": "src replace"
+  },
+  "connect_to_hamster": {
+    "message": "Connect to Hamster",
+    "description": "connect_to_hamster"
+  },
+  "wrong_tab": {
+    "message": "Open telegram web-version tab and start Hamster Kombat",
+    "description": "wrong tab opened"
+  },
+  "settings_useEnergyBoost_label": {
+    "message": "Use energy boost",
+    "description": ""
+  },
+  "settings_useEnergyBoost_description": {
+    "message": "After each tap, looks for the presence of available energy boosts, uses them if available and tap again",
+    "description": ""
+  },
+  "settings_dailyClaim_label": {
+    "message": "Daily reward",
+    "description": "Daily reward"
+  },
+  "settings_dailyClaim_description": {
+    "message": "Takes the daily reward",
+    "description": "Описание ежедневной награды"
+  },
+  "settings_dailyCipher_label": {
+    "message": "Daily cipher",
+    "description": "Daily cipher"
+  },
+  "settings_dailyCipher_description": {
+    "message": "Takes the daily cipher",
+    "description": "Daily cipher"
+  },
+  "settings_dailyCombo_label": {
+    "message": "Daily combo",
+    "description": "Daily combo"
+  },
+  "settings_dailyCombo_description": {
+    "message": "Checks the availability of all combo cards, as well as the number of coins, if all conditions are met - buys cards and takes the reward",
+    "description": "Mechanism of daily combo"
+  },
+  "settings_dailyMiniGame_label": {
+    "message": "Daily mini game",
+    "description": "Daily minigame"
+  },
+  "settings_dailyMiniGame_description": {
+    "message": "Takes the daily key",
+    "description": "Takes the daily key"
+  },
+  "settings_reinvestPassiveIncome_label": {
+    "message": "Reinvest passive income",
+    "description": "Reinvest passive income"
+  },
+  "settings_reinvestPassiveIncome_description": {
+    "message": "Each cycle buys cards with the best ratio (income / price) for the amount of profit per hour",
+    "description": "Reinvest passive income description"
+  },
+  "settings_tapPercent_label": {
+    "message": "Choose % of coins per tap",
+    "description": "Choose % of coins per tap"
+  },
+  "settings_tapPercent_description": {
+    "message": "Percentage of coins from the maximum amount of energy. (For example, if 2000 energy is available and the setting is set to 50%, the bot will farm 1000 coins). After a successful tap, the bot will go into standby mode until the energy is completely restored and a new cycle will begin.",
+    "description": "Choose % of coins per tap description"
+  },
+  "empty_logs": {
+    "message": "There are no logs at the moment",
+    "description": "Empty logs"
+  }
+}

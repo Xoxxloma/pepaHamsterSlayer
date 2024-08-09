@@ -1,0 +1,102 @@
+{
+  "extensionName": {
+    "message": "Что-то на русском",
+    "description": "Описание первой опции."
+  },
+  "extensionDescription": {
+    "message": "Пример использование локалей с i18n!",
+    "description": "Еще одно описание."
+  },
+  "popup": {
+    "message": "Логика блаблабла.",
+    "description": "Попап месседж."
+  },
+  "Settings": {
+    "message": "Настройки",
+    "description": "Настройки"
+  },
+  "Logs":  {
+    "message": "Логи",
+    "description": "Логи"
+  },
+  "FAQ": {
+    "message": "Инструкция",
+    "description": "Инструкция"
+  },
+  "token_not_found": {
+    "message": "Токен не найден, сделайте несколько тапов и подождите",
+    "description": "token_not_found"
+  },
+  "src_not_replaced": {
+    "message": "Если Hamster Kombat показывает qr-код и не запускается в Веб-версии - нажмите кнопку ниже",
+    "description": "замена срц"
+  },
+  "connect_to_hamster": {
+    "message": "Подключиться",
+    "description": "connect"
+  },
+  "wrong_tab": {
+    "message": "Откройте вкладку с веб-версией телеграм и запустите Hamster Kombat",
+    "description": "wrong tab opened"
+  },
+  "settings_useEnergyBoost_label": {
+    "message": "Использовать энерджи-буст",
+    "description": "Использовать энерджи-буст"
+  },
+  "settings_useEnergyBoost_description": {
+    "message": "После каждого тапа, смотрит на наличие свободных бустов / отсутствие кулдауна, использует его при наличии (Не более 1 буста за круг) и снова забирает монеты с тапа",
+    "description": "Описание энерджи буста"
+  },
+  "settings_dailyClaim_label": {
+    "message": "Ежедневная награда",
+    "description": "Ежедневная награда"
+  },
+  "settings_dailyClaim_description": {
+    "message": "Забирает ежедневную награду за вход",
+    "description": "Описание ежедневной награды"
+  },
+  "settings_dailyCipher_label": {
+    "message": "Ежедневный шифр",
+    "description": "Ежедневный шифр"
+  },
+  "settings_dailyCipher_description": {
+    "message": "Забирает ежедневный шифр-морзе",
+    "description": "Забирает ежедневный шифр-морзе"
+  },
+  "settings_dailyCombo_label": {
+    "message": "Ежедневное комбо",
+    "description": "Ежедневное комбо"
+  },
+  "settings_dailyCombo_description": {
+    "message": "Проверяет доступность всех карт комбо, а так же количество монет, при соблюдении всех условий - покупает карты и забирает награду",
+    "description": "Описание механизма ежедневного комбо"
+  },
+  "settings_dailyMiniGame_label": {
+    "message": "Ежедневная мини игра (ключи)",
+    "description": "Ежедневная мини игра (ключи)"
+  },
+  "settings_dailyMiniGame_description": {
+    "message": "Забирает ежедневный ключ",
+    "description": "Забирает ежедневный ключ"
+  },
+  "settings_reinvestPassiveIncome_label": {
+    "message": "Реинвестировать пассивный доход",
+    "description": "Реинвестировать пассивный доход"
+  },
+  "settings_reinvestPassiveIncome_description": {
+    "message": "Каждый цикл покупает карты с лучшим соотношением (доход / цена) на сумму заработка за час",
+    "description": "Описание реинвестирования"
+  },
+  "settings_tapPercent_label": {
+    "message": "Выберите % монет для тапа",
+    "description": "Выберите % монет для тапа"
+  },
+  "settings_tapPercent_description": {
+    "message": "Процент монет от максимального количества энергии. (К примеру если доступно 2000 энергии и выставлена настройка 50% - бот зафармит 1000 монет). После успешного тапа, бот перейдет в режим ожидания до полного восстановления энергии и начнется новый цикл.",
+    "description": "Описание процента тапа"
+  },
+  "empty_logs": {
+    "message": "На данный момент логов нет",
+    "description": "Пустой лог"
+  }
+}
